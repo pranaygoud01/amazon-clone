@@ -1,0 +1,256 @@
+*{
+    margin:0;
+    padding:0;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    height:60px;
+    background-color:#242b35;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+    cursor: pointer;
+}
+.nav-logo{
+     width:113px;
+}
+.logo{
+    height: 50px;
+    background-image: url(./images/amazon_logo.png);
+    background-size: cover;
+}
+.add-bar{
+    padding: 2px;
+}
+.add-first{
+    font-size: .6rem;
+    margin-left:20px;
+
+}
+.add-second{
+    display:flex;
+    justify-content:space-evenly;
+    
+    font-size:.75rem;
+    font-weight:600;
+}
+.nav-search{
+    height:38px;
+    display:flex;
+    width:650px;
+   border:2px solid transparent;
+
+}
+.nav-search:hover{
+    border:2px solid orange;
+    border-radius: 5px;
+}
+select{
+    width:51px;
+    color:black;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.search-input{
+    width:100%;
+   color:black;
+    border:none;
+}
+.nav-icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: rgb(224, 151, 41);
+  border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+border:none;
+cursor: pointer;
+}
+.greet{
+    padding:3px;
+}
+.greet-first{
+    font-size: .75rem;
+    font-weight: 400;
+}
+.greet-second{
+    font-size:.9rem;
+    font-weight: 700;
+}
+.return{
+    padding:3px;
+}
+.cart{
+    padding:4px;
+    display:flex;
+}
+.cart-icon{
+    font-size:1.5rem;
+}
+.cart-name{
+    font-size: .5;
+    font-weight:400;
+   margin-top:7px;
+}
+.nav-bar2{
+    height: 39px;
+    background-color: #232F3E;
+    display:flex;
+    font-size: .75rem;
+    align-items: center;
+   
+}
+.all{
+   margin-left:3rem;
+    display:flex;
+    justify-content: space-evenly;
+    width:59px;
+}
+.menu-list{
+    width:70%;
+    margin-left: 10px;
+}
+.menu-list a{
+    margin-right:5px;
+    padding:3px;
+}
+.special{
+    padding: 3px;
+    font-weight: 600;
+    font-size: .80rem;
+}
+.hero-section{
+    background-image: url(./images/hero_image.jpg);
+    background-size: cover;
+    height: 300px;
+    cursor: pointer;
+}
+
+.box-section{
+    padding-top:20px;
+    height: 1000px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(231, 237, 246);
+
+}
+.box{
+    height:450px;
+    width:325px;
+    background-color: white;
+    display: inline-block;
+    color:black;
+    flex-wrap: wrap;
+    padding:20px 0px 0px 20px;
+    cursor: pointer;
+}
+.box-head h2{
+    color:black;
+    padding-bottom:15px;
+}
+.box-img{
+    width:304px;
+    height: 350px;
+    margin-bottom:10px;
+
+   
+}
+.box-see a{
+    
+    
+    color:rgb(64, 42, 187);
+    cursor: pointer;
+}
+.backtotop{
+    background-color: #232F3E;
+    height:49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    cursor: pointer;
+
+}
+.backtotop a{
+    text-decoration: none;
+}
+.backtotop:hover{
+    background-color: #333b45;
+}
+.foot-details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:500px;
+    background-color:#151b23;
+   
+
+}
+.details-col{
+    color:white;
+    
+}
+.details-col h4{
+    padding:10px 0px 10px 0px;
+}
+.details-col p{
+transition: 1s;
+    color:white;
+    cursor: pointer;
+    padding-bottom: 5px;
+    
+}
+.details-col p:hover{
+  text-decoration-line: underline;
+
+}
+.cred{
+    height: 100px;
+    background-color:#151b23;
+    border-top: 1px solid #242b35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon-bottom{
+    height:30px;
+    width:76px;
+    cursor: pointer;
+}
+.lang-box{
+    margin-left: 20px;
+    padding:5px;
+}
+.lang-box button{
+    width:116px;
+    height:28px;
+    background: transparent;
+    border:1px solid white;
+    font-size:12px;
+    font-weight:500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cred-name{
+    background-color: #151b23;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
